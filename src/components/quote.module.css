@@ -1,0 +1,28 @@
+.box{
+position: relative;
+left: 400px;
+top: 100px;
+border: solid;
+width: 500px;
+height: 300px;
+grid-template-columns: auto auto auto;
+background-color: #2196F3;
+padding: 100px;
+}
+
+.card{
+position: relative;
+left: 100px;
+top: 50px;
+}
+
+.card1{
+   top: 200px;
+}
+
+.heading {
+    position: relative;
+    left: -80px;
+    bottom: 100px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
