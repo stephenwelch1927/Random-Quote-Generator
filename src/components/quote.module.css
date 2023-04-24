@@ -26,3 +26,9 @@ top: 50px;
     bottom: 100px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
+.button {
+    position: relative;
+    top: 50px;
+    left: -180px;
+}
