@@ -14,11 +14,11 @@ function ApiCall() {
 
   const retrieveQuote = () => {
     axios
-      .get("https://official-joke-api.appspot.com/random_joke")
+      .get("https://api.quotable.io/random")
       .then((response) => {
         console.log(response);
-        setQuote(response.data.setup);
-        setAuthor(response.data.punchline);
+        setQuote(response.data.content);
+        setAuthor(response.data.author);
       })
       .catch((error) => {
         console.log(error);
