@@ -22,21 +22,21 @@ top: 50px;
 
 .heading {
     position: relative;
-    left: -80px;
+    left: 30px;
     bottom: 100px;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .button {
     position: relative;
-    top: 50px;
-    left: -180px;
+    top: 170px;
+    left: -80px;
 }
 
 .icon {
    Position: relative;
-   right: 150px;
-   top: 100px;
+   right: 80px;
+   top: 40px;
 }
 
 .quote {
@@ -47,12 +47,17 @@ top: 50px;
 
 .displayQuote{
     position: relative;
-    left: 200px;
-    bottom: 200px;
-    text-size-adjust: 20;
+    left: 100px;
+    bottom: 100px;
 }
 
 .displayAuthor {
     position: relative;
-    top: 100px;
+    bottom: 50px;
+    left: 100px;
+}
+
+.texDisplay{
+    font-size: 1.87em;
+    float: left;
 }
