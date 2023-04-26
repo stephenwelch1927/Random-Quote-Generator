@@ -32,3 +32,27 @@ top: 50px;
     top: 50px;
     left: -180px;
 }
+
+.icon {
+   Position: relative;
+   right: 150px;
+   top: 100px;
+}
+
+.quote {
+    position: relative;
+    right: 200px;
+
+}
+
+.displayQuote{
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    text-size-adjust: 20;
+}
+
+.displayAuthor {
+    position: relative;
+    top: 100px;
+}
