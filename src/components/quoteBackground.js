@@ -14,7 +14,7 @@ class QuoteBackground extends React.Component {
 
   render() {
     return (
-      <div className={back.box}>
+      <div  className={back.box}>
         <h1 className={back.heading}>Random Quote Generator</h1>
 
         <ApiCall />

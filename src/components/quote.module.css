@@ -1,14 +1,13 @@
 .box{
-position: relative;
-left: 400px;
-top: 100px;
+margin:auto;
 border: solid;
 width: 500px;
 height: 300px;
-grid-template-columns: auto auto auto;
 background-color: #2196F3;
 padding: 100px;
+justify-content: center;
 }
+
 
 .card{
 position: relative;

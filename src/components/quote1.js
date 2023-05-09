@@ -47,8 +47,8 @@ function ApiCall() {
         </h2>
         <p>{author}</p>
       </div>
-      <div id="tweet-one">
-        <a href="https://twitter.com/" target="_blank">
+      <div>
+        <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank">
           <BsTwitter className={back.icon} />
         </a>
       </div>
